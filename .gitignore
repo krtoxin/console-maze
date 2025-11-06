@@ -1,0 +1,53 @@
+# Top-level ignores for Python + .NET Console app
+
+# OS / editor junk
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# VS Code
+.vscode/
+.history/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+.venv/
+venv/
+env/
+.python-version
+.mypy_cache/
+.pytest_cache/
+.ruff_cache/
+coverage.xml
+.coverage*
+.cache/
+.ipynb_checkpoints/
+
+dist/
+build/
+
+# .NET / C#
+# Build artifacts
+bin/
+obj/
+# Common configuration/user files
+.vs/
+*.user
+*.suo
+*.userosscache
+*.sln.docstates
+# Test results
+TestResult*/
+*.trx
+
+# Logs
+logs/
+*.log
+
+# Packages (if ever used)
+packages/
+*.nupkg
+*.snupkg
